@@ -38,19 +38,17 @@ struct JokeView: View {
             Spacer()
             
             HStack {
-                Spacer()
-                Button(showingPunchline ? "Next Joke" : "Show Punchline") {
-                    withAnimation(.easeInOut(duration: 0.5)) {
-                        if showingPunchline {
-                            currentJokeIndex = (currentJokeIndex + 1) % jokes.count
-                            showingPunchline = false
-                        } else {
-                            showingPunchline = true
+                            Spacer()
+                            Button(showingPunchline ? "Next Joke" : "Show Punchline") {
+                                if showingPunchline {
+                                    currentJokeIndex = (currentJokeIndex + 1) % jokes.count
+                                    showingPunchline = false
+                                } else {
+                                    showingPunchline = true
+                                }
+                            }
+                            .padding()
                         }
-                    }
-                }
-                .padding()
-            }
         }
         .navigationTitle(title)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
