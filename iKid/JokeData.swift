@@ -10,30 +10,30 @@ import Foundation
 struct JokeData {
     
     static let goodJokes: [Joke] = [
-        Joke(setup: "Why did the scarecrow win an award?",
-             punchline: "Because he was outstanding in his field!"),
-        Joke(setup: "What do you call a fish with no eyes?",
-             punchline: "Fsh!"),
-        Joke(setup: "How do you organize a space party?",
-             punchline: "You planet!")
+        Joke(setup: "How do you communicate with a fish?",
+             punchline: "Drop it a line. 😂"),
+        Joke(setup: "Where do cats go swimming?",
+             punchline: "The kitty pool. 😂"),
+        Joke(setup: "Why does ice cream get invited to every party?",
+             punchline: "It's cool and sweet. 😂")
     ]
     
     static let punJokes: [Joke] = [
-        Joke(setup: "Did you hear about the guy who invented the knock-knock joke?",
-             punchline: "He won the 'no-bell' prize."),
-        Joke(setup: "I'm reading a book on anti-gravity.",
-             punchline: "It's impossible to put down!"),
-        Joke(setup: "What do you call a fake noodle?",
-             punchline: "An impasta!")
+        Joke(setup: "Why did Adele cross the road?",
+             punchline: "To say hello from the other side. 😂"),
+        Joke(setup: "What did the grape say when it got crushed?",
+             punchline: "Nothing, it just let out a little wine. 😂"),
+        Joke(setup: "Ladies, if he can't appreciate your fruit jokes...",
+             punchline: "you need to let that mango! 😂")
     ]
     
     static let dadJokes: [Joke] = [
-        Joke(setup: "Why don't scientists trust atoms?",
-             punchline: "Because they make up everything!"),
-        Joke(setup: "What did the buffalo say to his son when leaving for college?",
-             punchline: "Bison!"),
-        Joke(setup: "When does a joke become a 'dad joke'?",
-             punchline: "When it becomes apparent!")
+        Joke(setup: "I thought the dryer was shrinking my clothes.",
+             punchline: "Turns out it was the refrigerator all along! 😂"),
+        Joke(setup: "Did you hear the rumor about butter?",
+             punchline: "Well, I'm not going to spread it! 😂"),
+        Joke(setup: "Did you hear about the kidnapping at school?",
+             punchline: "It's okay, he woke up. 😂")
     ]
     
     static let imageJokes: [Joke] = [
@@ -42,8 +42,8 @@ struct JokeData {
     ]
     
     static let knockKnockJokes: [KnockKnockJoke] = [
-        KnockKnockJoke(who: "Interrupting cow", punchline: "MOO!"),
-        KnockKnockJoke(who: "Avenue", punchline: "Avenue knocked on this door before?"),
-        KnockKnockJoke(who: "Lettuce", punchline: "Lettuce in, it's cold out here!")
+        KnockKnockJoke(who: "Sadie", punchline: "Sadie magic word and I’ll tell you 😏"),
+        KnockKnockJoke(who: "Gwen", punchline: "Gwen will these jokes ever end? 💔"),
+        KnockKnockJoke(who: "Dublin", punchline: "I'm Dublin down on telling these knock-knock jokes. 😅")
     ]
 }
